@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vacunación México</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script></script>
+    </head>
+<body>
+    <h1 class="title1">Vacunación Innovacción</h1>
+    <div class="topnav" id="myTopnav">
+        <a href="#database" class="active">Base de datos</a>
+        <a href="#education">Educación</a>
+        <a href="#news">Noticias</a>
+        <a href="#regulation">Regulación</a>
+        <a href="#hoaxbuster">Páginas falsas</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+    <hr>
+    <h1 class="title2">Combate Virus Con Vacunas</h1>
+    <p class="txt1">Detengamos esta pandemia eliminando el virus con una vacuna, no permitas que tú o tu familia se infecten</p>
+    <div class="yellow-icons">
+        <ul>
+          <li><svg class="icon-user"><use xlink:href="#icon-user"></use></svg> Mejor protección</li>
+          <li><svg class="icon-location"><use xlink:href="#icon-location"></use></svg> Vacunas Seleccionadas</li>              
+        </ul>
+    </div>
+    <br>
+    <div class="schedule">
+        <p>Agenda tus vacunas</p>
+        <form action="pedido.js">
+            <label for="location">Ubicación</label>
+            <select name="location" id="location">
+                <option value="cdmx">Ciudad de México</option>
+                <option value="edomex">Estado de México</option>
+                <option value="chiapas">Chiapas</option>
+                <option value="tlaxcala">Tlaxcala</option>
+            </select>
+            <label for="v-date">Fecha</label>
+            <input type="date" id="v-date" name="v-date"
+                value="today"
+                min="2022-03-01" max="2022-03-31">
+            <label for="v-type">Tipo de vacuna</label>
+                <select name="v-type" id="v-type">
+                    <option value="astra-zeneca">Astra Zeneca</option>
+                    <option value="pfyzer">Pfyzer</option>
+                    <option value="sputnik-v">Sputnik V</option>
+                </select>    
+                <input class="btn-submit" type="submit" value="Confirmar">
+        </form>
+        <dl>
+            <dt>Tipo de Vacuna</dt>
+            <dd>AstraZeneca</dd>
+        </dl>
+    </div>
+    <hr>
+    <footer>
+        <p>Pan Nacote Pastelerías.</p>
+        <p>Horarios de atención: Martes a Domingo de 10 A.M. a 8 P.M.</p>
+        <p>Teléfono:5512534567</p>
+        <p>Dirección: Dr. Barragán 188, Doctores, Cuauhtémoc, 06720 Ciudad de México, CDMX</p>
+      </footer> 
+</body>
+</html>
