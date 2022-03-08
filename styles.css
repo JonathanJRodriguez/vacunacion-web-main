@@ -35,7 +35,7 @@ body{
   .first-section{
       display:  flex;
       width: 100%;
-      
+
   } 
   img.doctor1{
       display:inline-block;
@@ -72,9 +72,74 @@ body{
     background-color: #fffcf0;
     box-shadow: 15px 10px 18px #fffcf0;
     padding: 10px;
+    border-radius: 10%;
+  }
+  .fablue{
+      color: #3353d1;
+      background-color: #e6ecff;
+      box-shadow: 15px 10px 18px #fffcf0;
+  }
+  .sched-title{
+    color: #1f3d72;
+    font-size: 8pt;
+    font-weight:700;
+    text-align: left;
+    margin: 5%;
+    padding: 10px 20px;
+  }
+  .schedule{
+      width: 620px;
+    background-color: #ffffffF0;
+    border-radius: 10px;
+    margin: 10%;  
+    padding: 20px 20px;
+    position: absolute;
+    left: 50px;
+    top:300px;
+    box-shadow: 5px 10px 18px #88888881;
+  }
+  .form-data{
+    display: flex;
+    width: 700px;
+  }
+  .loc-data{
+      flex:1;
+      -ms-flex-align: center;
+  }
+  .date-data{
+      flex:1;
+      -ms-flex-align: center;
+  }
+  .v-data{
+      flex:1;
+      align-content: justify;
+      -ms-flex-align: center;
+  }
+  .custom-select {
+    position: relative;
+    border: 0px;
+    font-weight: bold;
+    color: #1f3d72;
+    background-color: transparent;
   }
 .v-brands{
-    vertical-align: center;
+    display: flex;
+    width: 100%;
+}
+.btn-div{
+    flex:1;
+    margin: 10px;
+}
+.btn-submit{
+    background-color: #2e4ecc;
+    color: white;
+    font-size: 8pt;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 18px #888888;
+ 
 }
 .img-size{
     width: 150px;

@@ -33,34 +33,49 @@
           <li class="list-h"><i class="fa fa-star"><use xlink:href="#icon-location"></use></i> Vacunas Seleccionadas</li>              
         </ul>
     </div>
+    <p class="sched-title"><i class="fa fa-clock-o fablue"></i>Agenda tus vacunas</p>
 </div>
     <img src="./assets/img/doctor1.png" class="doctor1">
 </div>
     <br>
     <section class="schedule">
-        <p>Agenda tus vacunas</p>
         <form action="pedido.js">
-            <label for="location">Ubicación</label>
-            <select name="location" id="location">
+            <div class="form-data">
+            <div class="loc-data">
+            <label for="location" class="txt1"><i class="fa fa-map-marker fablue"></i>Ubicación</label>
+            <br>
+            <select name="location" id="location" class="custom-select">
                 <option value="cdmx">Ciudad de México</option>
                 <option value="edomex">Estado de México</option>
                 <option value="chiapas">Chiapas</option>
                 <option value="tlaxcala">Tlaxcala</option>
             </select>
-            <label for="v-date">Fecha</label>
-            <input type="date" id="v-date" name="v-date"
-                value="today"
-                min="2022-03-01" max="2022-03-31">
-            <label for="v-type">Tipo de vacuna</label>
-                <select name="v-type" id="v-type">
+            </div>
+            <div class="date-data">
+            <label for="v-date" class="txt1"><i class="fa fa-calendar fablue"></i>Fecha</label>
+            <br>
+            <input type="date" id="v-date" name="v-date" class="custom-select"
+            value="2022-03-09"
+            min="2022-03-01" max="2022-03-31">
+            </div>
+            <div class="v-data">
+            <label for="v-type" class="txt1"><i class="fa fa-pencil fablue"></i>Tipo de vacuna</label>
+            <br>   
+            <select name="v-type" id="v-type" class="custom-select">
                     <option value="astra-zeneca">Astra Zeneca</option>
-                    <option value="pfyzer">Pfyzer</option>
+                    <option value="pfizer">Pfizer</option>
                     <option value="sputnik-v">Sputnik V</option>
-                </select>    
+                </select>
+            </div>    
+            <div class="btn-div">
                 <input class="btn-submit" type="submit" value="Confirmar">
+            </div>
+            </div>
         </form>
     </section>
 </section>
+<br>
+<br>
     <div class="v-brands">
         <img class="img-size" src="./assets/img/astrazeneca-logo.png">
         <img class="img-size" src="./assets/img/pfizer-logo.png">
