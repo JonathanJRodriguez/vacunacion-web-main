@@ -6,6 +6,7 @@ body{
     font-size: 18pt;
     color: #3150ca;
     padding-left: 20px;
+    padding-top: 20px;
 }
 .topnav {
     display: inline;
@@ -52,7 +53,7 @@ body{
     text-align: left;
     font-size: 10pt;
     font-weight: 600;
-    margin: 50px;
+    margin: 10%;
     width: 300px;
   }
   .list-icon{
@@ -86,7 +87,7 @@ body{
     padding: 10px 20px;
   }
   .schedule{
-    width: 620px;
+    width: 800px;
     background-color: #ffffffF0;
     border-radius: 10px;  
     padding: 20px 20px;
@@ -97,7 +98,7 @@ body{
   }
   .form-data{
     display: flex;
-    width: 700px;
+    width: 900px;
   }
   .loc-data{
       flex:1;
@@ -119,6 +120,7 @@ body{
     color: #1f3d72;
     background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15%;
   }
 .v-brands{
     display: flex;
@@ -129,10 +131,10 @@ body{
     flex:1;
     margin: 10px;
 }
-.btn-submit{
+.btn-submit, .btn-main4:hover{
     background-color: #2e4ecc;
     color: white;
-    font-size: 8pt;
+    font-size: 9pt;
     font-weight: bold;
     padding: 10px 20px;
     border: 0px;
@@ -150,6 +152,7 @@ body{
   font-size: 20pt;
   color: #1f3d72;
   margin: 50px;
+  padding-top: 20px;
 }
 .main2-div{
   display: flex;
@@ -200,7 +203,8 @@ body{
 .main3 img{
   flex:1;
   width: 150px;
-  max-width: 50%;
+  max-height: 633px;
+  max-width: 452px;
   height: 100%;
 }
 .main3 div{
@@ -282,8 +286,64 @@ body{
   padding: 5%;
   width: 300px;
 }
+.main4{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 5%;
+}
+.main4 img{
+  flex:1;
+  width: 150px;
+  max-height: 658px;
+  max-width: 452px;
+  height: 100%;
+}
+.main4-flex{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.main4-flex > div {
+  display: flex; 
+  flex-basis: calc(35% - 40px);  
+  justify-content: center;
+  flex-direction: column;
+}
+.main4-contact{
+  padding: 25px;
+  width: 50px;
+}
+.btn-main4{
+    background-color: #f1f5ff;
+    color: #2e4ecc;
+    font-size: 9pt;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.main4-i{
+  height: 32.5px;
+  flex: 1;
+}
+.main4-info{
+  flex: 4;
+}
+.main4-info h3{
+  color: #1f3d72;
+  font-weight: 600;
+  font-size: 12pt;
+  padding-left: 10pt;
+  margin-top: 0;
+}
+.main4-info p{
+  padding-left: 10pt;
+}
 footer{
     background-color: #eef3ff;
+    padding-left: 30px;
 }
 .ft-p{
   width: 150px;
@@ -318,4 +378,7 @@ footer{
   text-align: left;
   margin: 5%;
   padding: 10px 20px;
+}
+.ft-h3{
+  padding: 10px 10px !important;
 }
