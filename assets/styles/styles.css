@@ -5,6 +5,7 @@ body{
   background-image: url("../img/doctor1.png");
   background-position: center;
   background-repeat: no-repeat;
+  min-width: 970px;
 }
 .main1-div2{
   display: flex;
@@ -43,7 +44,7 @@ body{
   .first-section{
       display:  flex;
       width: 100%;
-
+      min-width: 1000px;
   } 
   img.doctor1{
       display:inline-block;
@@ -194,14 +195,16 @@ body{
 }
 .main2-div{
   display: flex;
-  width: 100%;
+  width: 95%;
   justify-content: space-around;
-  margin: 5%;
+  padding: 1%;
+  margin: 10px;
 }
 .main2-info{
   transition: box-shadow .3s;
-  float: left;
+  /*float: left;*/
   flex: 1;
+  min-width: 0;
   border: #fbfbff 2px;
   border-style: solid;
   border-radius: 15px;
@@ -234,7 +237,7 @@ body{
 }
 .main3{
   display: flex;
-  width: 100%;
+  width: 93%;
   justify-content: space-around;
   margin: 5%;
 }
@@ -243,14 +246,17 @@ body{
   width: 150px;
   max-height: 633px;
   max-width: 452px;
+  min-width: 0;
   height: 100%;
 }
 .main3 div{
   flex:1;
   height: 100%;
+  min-width: 0;
 }
 .main3 p{
   width: 350px;
+  min-width: 0;
 }
 .main3-details details{
   width: 350px;
@@ -337,7 +343,7 @@ body{
 }
 .main4{
   display: flex;
-  width: 100%;
+  width: 93%;
   justify-content: space-around;
   margin: 5%;
 }
